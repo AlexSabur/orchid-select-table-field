@@ -1,0 +1,43 @@
+{
+  "name": "alexsabur/orchid-select-table-field",
+  "description": "A orchid table field",
+  "license": "MIT",
+  "keywords": [
+    "orchid",
+    "select",
+    "select-table",
+    "table",
+    "field"
+  ],
+  "type": "library",
+  "authors": [
+    {
+      "name": "Alex",
+      "email": "alexsabur@live.ru"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "orchid/platform": "^10.16.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "AlexSabur\\OrchidSelectTableField\\": "src"
+    }
+  },
+  "scripts": {
+    "phpunit": "phpunit"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "AlexSabur\\OrchidSelectTableField\\Support\\Providers\\SelectTableServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "orchid-select-table-field",
+  "private": true,
+  "scripts": {
+    "dev": "mix",
+    "watch": "mix watch",
+    "prod": "mix --production"
+  },
+  "devDependencies": {
+    "laravel-mix": "^6.0.34"
+  }
+}
